@@ -37,8 +37,8 @@ const indentedSassLanguage = sassLanguage.configure({
 
 /// Language support for CSS.
 export function sass(config?: {
-  // When enabled, support classical indentation-based syntax. Default
-  // to false (SCSS syntax).
+  /// When enabled, support classical indentation-based syntax. Default
+  /// to false (SCSS syntax).
   indented?: boolean
 }) {
   return new LanguageSupport(

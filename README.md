@@ -23,10 +23,18 @@ to communication around the project.
 
 <dl>
 <dt id="user-content-sass">
-  <code><strong><a href="#user-content-sass">sass</a></strong>(<a id="user-content-sass^config" href="#user-content-sass^config">config</a>&#8288;?: {indented&#8288;?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a>}) → <a href="https://codemirror.net/docs/ref#language.LanguageSupport">LanguageSupport</a></code></dt>
+  <code><strong><a href="#user-content-sass">sass</a></strong>(<a id="user-content-sass^config" href="#user-content-sass^config">config</a>&#8288;?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>) → <a href="https://codemirror.net/docs/ref#language.LanguageSupport">LanguageSupport</a></code></dt>
 
 <dd><p>Language support for CSS.</p>
-</dd>
+<dl><dt id="user-content-sass^config">
+  <code><strong><a href="#user-content-sass^config">config</a></strong></code></dt>
+
+<dd><dl><dt id="user-content-sass^config.indented">
+  <code><strong><a href="#user-content-sass^config.indented">indented</a></strong>&#8288;?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></code></dt>
+
+<dd><p>When enabled, support classical indentation-based syntax. Default
+to false (SCSS syntax).</p>
+</dd></dl></dd></dl></dd>
 <dt id="user-content-sasslanguage">
   <code><strong><a href="#user-content-sasslanguage">sassLanguage</a></strong>: <a href="https://codemirror.net/docs/ref#language.LRLanguage">LRLanguage</a></code></dt>
 

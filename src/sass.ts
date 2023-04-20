@@ -1,5 +1,5 @@
 import {parser} from "@lezer/sass"
-import {LRLanguage, indentNodeProp, foldNodeProp, LanguageSupport} from "@codemirror/language"
+import {LRLanguage, indentNodeProp, continuedIndent, foldNodeProp, foldInside, LanguageSupport} from "@codemirror/language"
 import {cssCompletionSource} from "@codemirror/lang-css"
 
 /// A language provider based on the [Lezer Sass
@@ -10,9 +10,13 @@ export const sassLanguage = LRLanguage.define({
   parser: parser.configure({
     props: [
       foldNodeProp.add({
+        Block: foldInside,
         Comment(node, state) {
           return {from: node.from + 2, to: state.sliceDoc(node.to - 2, node.to) == "*/" ? node.to - 2 : node.to}
         }
+      }),
+      indentNodeProp.add({
+        Declaration: continuedIndent()
       })
     ]
   }),

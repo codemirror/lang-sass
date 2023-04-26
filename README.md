@@ -42,4 +42,10 @@ to false (SCSS syntax).</p>
 parser</a>, extended with
 highlighting and indentation information.</p>
 </dd>
+<dt id="user-content-sasscompletionsource">
+  <code><strong><a href="#user-content-sasscompletionsource">sassCompletionSource</a></strong>: <a href="https://codemirror.net/docs/ref#autocomplete.CompletionSource">CompletionSource</a></code></dt>
+
+<dd><p>Property, variable, $-variable, and value keyword completion
+source.</p>
+</dd>
 </dl>

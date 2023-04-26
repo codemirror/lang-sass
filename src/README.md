@@ -24,3 +24,5 @@ to communication around the project.
 @sass
 
 @sassLanguage
+
+@sassCompletionSource

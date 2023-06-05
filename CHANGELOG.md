@@ -1,3 +1,9 @@
+## 6.0.2 (2023-06-05)
+
+### Bug fixes
+
+Make autocompletion work for `$`-variables.
+
 ## 6.0.1 (2023-04-20)
 
 ### Bug fixes

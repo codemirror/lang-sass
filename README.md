@@ -2,7 +2,7 @@
 
 # @codemirror/lang-sass [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-sass.svg)](https://www.npmjs.org/package/@codemirror/lang-sass)
 
-[ [**WEBSITE**](https://codemirror.net/) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net//) | [**CHANGELOG**](https://github.com/codemirror/lang-sass/blob/main/CHANGELOG.md) ]
+[ [**WEBSITE**](https://codemirror.net/) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net/) | [**CHANGELOG**](https://github.com/codemirror/lang-sass/blob/main/CHANGELOG.md) ]
 
 This package implements Sass/SCSS language support for the
 [CodeMirror](https://codemirror.net/) code editor.

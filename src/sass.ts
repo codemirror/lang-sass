@@ -3,7 +3,7 @@ import {LRLanguage, indentNodeProp, continuedIndent, foldNodeProp, foldInside, L
 import {defineCSSCompletionSource} from "@codemirror/lang-css"
 
 /// A language provider based on the [Lezer Sass
-/// parser](https://github.com/lezer-parser/sass), extended with
+/// parser](https://code.haverbeke.berlin/lezer/sass), extended with
 /// highlighting and indentation information.
 export const sassLanguage = LRLanguage.define({
   name: "sass",

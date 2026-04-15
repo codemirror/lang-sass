@@ -1,3 +1,5 @@
+**This repository has moved to https://code.haverbeke.berlin/codemirror/lang-sass**
+
 <!-- NOTE: README.md is generated from src/README.md -->
 
 # @codemirror/lang-sass [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-sass.svg)](https://www.npmjs.org/package/@codemirror/lang-sass)
